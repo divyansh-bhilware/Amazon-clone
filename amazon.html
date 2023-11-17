@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="/amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <div id="logo" class="hover" ><img src="/amal.png" height="50px"></div>
+        <div id="location">Deliver to<br><i class="fa-solid fa-location-dot" ></i>  India</div>
+        <div id="searchbox">
+            <div id="categories">
+                <select name="City" id="categor"> 
+                    <option value="All" id="501">All</option>
+                    <option value="Mobile" id="502">Mobiles</option>
+                    <option value="electronics" id="503">Electronics</option>
+                </select>
+            </div>
+
+            <div id="searcharea">
+                <input type="text" placeholder="Search Amazon" id="searchamazon">
+            </div>
+
+            <div id="searchicon">
+                <button type="button" id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>  
+
+        <div id="language" >
+            <i class="fa-brands fa-font-awesome" style="color: #ffffff;"></i>
+            <div><p>EN</p></div>
+        </div>
+
+        <div id="login">
+            <p class="size1">Hello,sign in</p>
+            <p class="size2">Account & Lists  <i class="fa-solid fa-caret-down" style="color: #929292;"></i></p>
+            </div> 
+
+        <div id="orders">
+            <p class="size1">Returns</p>
+            <p class="size2">& Orders  <i class="fa-solid fa-caret-down" style="color: #929292;"></i></p>
+        </div>
+
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <!-- Menubar -->
+    <div id="menubar">
+            <div id="all">
+                <i  class="fa-solid fa-bars" style="color: #ffffff;"></i> All
+            </div>
+
+            <div id="todaysdeals" class="sub">
+                Today's Deals
+            </div>
+
+            <div id="Registry" class="sub" >
+                Registry
+            </div>
+
+            <div id="customerservice" class="sub">
+                Customer Service
+            </div>
+
+            <div id="giftcards" class="sub">
+                Gift Cards
+            </div>
+
+            <div id="sell" class="sub">
+                Sell
+            </div>
+        </div>
+
+
+
+<!-- Hero-section -->
+
+<div id="herosec">
+    <div id="hero-text">
+        <p id="herotxt">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a id="clk2amaz" href="#">Click here to go to amazon.in</a></p>
+    </div>
+
+    <div id="rec-element">
+        <div id="hom-dec">
+            Home décor under $50
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" height="300px" width="260px">
+            <a href="#" class="shop-now">Shop now</a>
+        </div>
+        
+        <div id="top-deal">
+            Top deals
+            <img src="https://m.media-amazon.com/images/I/51Awwg8elwL._AC_SY460_.jpg" height="300px" width="260px">
+            <a href="#" class="shop-now">See all deals</a>
+        </div>
+
+        <div id="smallgft">
+            Small gifts under $20
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v2._SY608_CB573698005_.jpg" height="300px" width="260px">
+            <a href="#" class="shop-now">Shop now</a>
+        </div>
+
+        <div id="gam-acc">Gaming Accesories
+            <div id="lay4">
+            <div id="headsets">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg" height="80px"><br>
+                <p class="subtxt">Headsets</p>
+            </div>
+
+            <div id="keyboards">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg" height="80px"><br>
+                <p class="subtxt">Keyboards</p>
+            </div>
+
+            <div id="comp-mice">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg" height="80px"><br>
+                <p class="subtxt">Computer mice </p>
+            </div>
+
+            <div id="chair">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg" height="80px"><br>
+                <p class="subtxt">Chair</p>
+            </div>
+        </div>
+            <a href="#" class="shop-now">See more</a>
+        </div>
+
+        <div id="pc">
+            Deals in PCs
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg" height="300px" width="260px">
+            <a href="#" class="shop-now">Shop now</a>
+        </div>
+        
+        <div id="fash-trend">Fashion trends you like
+            <div id="lay4">
+            <div id="headsets">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_2_x2._SY232_CB595261253_.jpg" height="80px"><br>
+                <p class="subtxt">Dresses</p>
+            </div>
+
+            <div id="keyboards">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_3_x2._SY232_CB595261253_.jpg" height="80px"><br>
+                <p class="subtxt">Knits</p>
+            </div>
+
+            <div id="comp-mice">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_1_x2._SY232_CB595261253_.jpg" height="80px"><br>
+                <p class="subtxt">Jackets </p>
+            </div>
+
+            <div id="chair">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_4_x2._SY232_CB595261253_.jpg" height="80px"><br>
+                <p class="subtxt">jewelery</p>
+            </div>
+        </div>
+            <a href="#" class="shop-now">Explore more</a>
+        </div>
+        
+        <div id="shopholgft">
+            Shop holiday gift guides
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/GiftGuides/Fuji_Holiday_Gift_guide_Desktop_Card_2x_758x608_EN._SY608_CB576347904_.jpg" height="300px" width="260px">
+            <a href="#" class="shop-now">See more</a>
+        </div>
+        
+        <div id="shopdelfash">Fashion trends you like
+            <div id="lay4">
+            <div id="headsets">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_2x._SY232_CB624172947_.jpg" height="80px"><br>
+                <p class="subtxt">Jeans under 50$</p>
+            </div>
+
+            <div id="keyboards">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_2x._SY232_CB623353881_.jpg"height="80px"><br>
+                <p class="subtxt">Tops under 25$</p>
+            </div>
+
+            <div id="comp-mice">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_2x._SY232_CB623353881_.jpg" height="80px"><br>
+                <p class="subtxt">Dresses under 30$</p>
+            </div>
+
+            <div id="chair">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_2x._SY232_CB624172947_.jpg" height="80px"><br>
+                <p class="subtxt">Shoes under 50$</p>
+            </div>
+        </div>
+            <a href="#" class="shop-now">Explore more</a>
+        </div>
+
+        <div id="mostwished">
+            <p class="mstwshd">Most wished for in Video Games</p>
+            <div id="imageearea">
+                <div><img src="https://m.media-amazon.com/images/I/91PED0k5yfL._AC_SY400_.jpg" height="200px"></div>
+                <div><img src="https://m.media-amazon.com/images/I/81VGpLvXQuL._AC_SY400_.jpg" height="200px"></div>
+                <div><img src="https://m.media-amazon.com/images/I/91hN+j+G7LL._AC_SY400_.jpg" height="200px"></div>
+                <div><img src="https://m.media-amazon.com/images/I/51eOztNdCkL._AC_SY400_.jpg" height="200px"></div>
+                <div><img src="https://m.media-amazon.com/images/I/61tE7IcuLmL._AC_SY400_.jpg" height="200px"></div>
+            </div>
+        </div> 
+
+        <div id="back2top">Back to top</div> 
+        <div id="about-lay">
+            <div id="g2ku">
+                <h3>Get to Know Us</h3><br>
+                Careers<br>
+                Blog<br>
+                About Amazon<br>
+                Investor Relations<br>
+                Amazon Devices<br>
+                Amazon Science<br>
+            </div>
+
+            <div id="mmwu">
+                <h3>Make Money With Us</h3><br>
+                Sell products on Amazon<br>
+                Sell on Amazon Business<br>
+                Sell apps on Amazon<br>
+                Become an Affiliate<br>
+                Advertise Your Products<br>
+                Self-Publish with Us<br>
+                Host an Amazon Hub<br>
+                See More Make Money with Us<br>
+            </div>
+
+            <div id="app">
+                <h3>Amazon Payment Products</h3><br>
+                Amazon Business Card<br>
+                Shop with Points<br>
+                Reload Your Balance<br>
+                Amazon Currency Converter<br>
+            </div>
+
+            <div id="luhy">
+                <h3>Let Us Help You</h3><br>
+                Amazon and COVID-19<br>
+                Your Account<br>
+                Your Orders<br>
+                Shipping Rates & Policies<br>
+                Returns & Replacements<br>
+                Manage Your Content and Devices<br>
+                Amazon Assistant
+                Help<br>
+            </div>
+        </div>
+
+        <div id="foot">
+            <img src="/amal.png" height="100px">
+            <select name="language" class="bottom-select">
+                <option>English</option>
+            </select>
+            <select name="currency" class="bottom-select">
+                <option>$ USD - U.S. Dollar</option>
+            </select>
+            <select name="country" class="bottom-select">
+                <option>India</option>
+            </select>
+        </div>
+    </div>
+</div>
+</body>
+</html>

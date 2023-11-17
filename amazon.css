@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#03463f;
+}
+#navbar{
+    height: 60px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#location{
+    color: aliceblue;
+    margin-top: 7px;
+}
+#searchbox{
+    height: 35px;
+    width: 600px;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 5px;    
+}
+#categories{
+    height: 35px;
+    width: 50px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#dropdown{
+    height: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#categor{
+    background-color: #e6e6e6;
+    height: 35px;
+    width: 50px;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+}
+#searchamazon{
+    height: 31px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    font-size: 20px;
+}
+#searchbutton{
+    height: 35px;
+    width: 50px;
+    background-color: #f3a846;
+    border: 0;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#language{
+    width: 1rem;
+    height: 1rem;
+}
+.hover :hover{
+    border: 2px solid goldenrod;
+    border-radius: 2px;
+}
+#login{
+    width: 140px;
+    height: 50px;
+    background-color: #0f1111;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.size1{
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.size2{
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.fa-solid fa-caret-down{
+    font-weight:100;
+}
+#cart{
+    height: 1rem;
+    width: 0.8rem;
+}
+#menubar{
+    height: 40px;
+    background-color: #222f3e;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.sub{
+    margin-right: 30px;
+}
+#all{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+#herosec{
+    height:max-content;
+    background-image: url(bgg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#hero-text{
+    height: 40px;
+    background-color: #e6e6e6;
+    width: 95%;
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clk2amaz{
+    text-decoration: none;
+    color: #007185;
+    font-size: 1rem;
+}
+#rec-element{
+    width: 95%;
+    height: 550px;
+    background-color:transparent;
+    position: relative;
+    top: 280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#hom-dec{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+}
+.shop-now{
+    align-self: flex-start;
+    margin-left: 23px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #007185;
+}
+#top-deal{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+}
+#smallgft{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+}
+#gam-acc{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+} 
+#lay4{ 
+    height:300px ;
+    max-width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subtxt{
+    font-size: 12px;
+}
+#pc{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#fash-trend{
+    margin-top: 30px;
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-size: 21px;
+    font-weight: bold;
+    justify-content: space-evenly;
+} 
+#shopholgft{
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#shopdelfash{
+    margin-top: 30px;
+    height: 405px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-size: 21px;
+    font-weight: bold;
+    justify-content: space-evenly;
+} 
+#mostwished{
+    height: 280px;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: black;
+}
+#imageearea{
+    height: 90%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mstwshd{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#back2top{
+    height: 50px;
+    width: 100%;
+    background-color: #364759;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+#about-lay{
+    height:400px;
+    width: 100%;
+    background-color:#222f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+}
+#g2ku, #mmwu, #app, #luhy{
+    margin-top: 30px;
+    color: #dcdcdc;
+    line-height: 30px;
+}
+h3{
+    color:#edeeef;
+}
+#foot{
+    border-top: 3px solid #03463f;
+    height: 200px;
+    width:100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-select{
+    width: 130px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+}
+
