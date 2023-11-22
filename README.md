@@ -8,7 +8,7 @@ This project is a static clone of the Amazon website created using HTML and CSS.
 
 ## Demo
 
-You can view the project live at [Amazon Clone](<[insert-hosting-url-here](https://divyansh-bhilware.github.io/Amazon-clone/)>)
+You can view the project live at [Amazon Clone](<https://divyansh-bhilware.github.io/Amazon-clone/>)
 
 ## Key Pointers
 
